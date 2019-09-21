@@ -1,0 +1,21 @@
+@charset "UTF-8";
+/* スマートフォン用CSS */
+
+.hidden-sp {
+	display:none !important;
+}
+.hidden-tb {
+	display: inherit !important;
+}
+.hidden-pc {
+	display: inherit !important;
+}
+.only-sp {
+	display: inherit !important;
+}
+.only-tb {
+	display: none !important;
+}
+.only-pc {
+	display: none !important;
+}
