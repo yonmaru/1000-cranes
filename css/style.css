@@ -1,6 +1,444 @@
 @charset "UTF-8";
 .inner {
-	width:1280px;
+	width:960px;
 	margin:0 auto;
 	position:relative;
+}
+
+
+.obi {
+    background-color: #7F4420;
+}
+
+.cvarea ul {
+    padding:80px 0;
+    width:704px;
+    margin:0 auto;
+}
+.cvarea li {
+    width:340px;
+    float: left;
+}
+.cvarea li:nth-of-type(2) {
+    float: right;
+}
+.cvarea li img {
+    width:100%;
+}
+
+#header {
+    background-color: #F8BE3F;
+}
+#header .header-left {
+    padding:0 0;
+    float:left;
+}
+#header .header-right {
+    padding:26px 0;
+    float:right;
+}
+#header .header-right li {
+    float:right;
+    margin-left:8px;
+}
+#header h1 {
+    font-size:1rem;
+    padding:1em 0;
+    color:#816624;
+}
+
+
+
+
+.main_visual {
+    background: url("../img/bg01.png") repeat 0 0;
+}
+.main_visual ul {
+    position: absolute;
+    right: 40px;
+    top:340px;
+}
+.main_visual li {
+    float:right;
+    width:274px;
+    margin-left:10px;
+}
+.main_visual li img {
+    width:100%;
+}
+.fukidashi {
+    position: absolute;
+    top:-21px;
+    right:-72px;
+}
+
+.section01 {
+    background: #ffffff;
+    background: -moz-linear-gradient(top,  #ffffff 0%, #fdc438 100%);
+    background: -webkit-linear-gradient(top,  #ffffff 0%,#fdc438 100%);
+    background: linear-gradient(to bottom,  #ffffff 0%,#fdc438 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#fdc438',GradientType=0 );
+}
+
+.section02 {
+    background: url("../img/bg02.png") repeat 0 0;
+}
+.section02 dl {
+    position: relative;
+}
+.section02 dt {
+    width:264px;
+    float:left;
+}
+.section02 dd {
+    width:696px;
+    float: right;
+    position: absolute;
+	top: 50%;
+	left: 264px;
+    font-size: 2.6rem;
+	-webkit-transform: translate(0%, -50%);
+	-moz-transform: translate(0%, -50%);
+	-ms-transform: translate(0%, -50%);
+	-o-transform: translate(0%, -50%);
+	transform: translate(0%, -50%);
+}
+.section02 .inner {
+    padding-top:48px;
+}
+.section02 .obi .inner,
+.section02 .cvarea .inner {
+    padding-top:0;
+}
+
+.stepbox {
+    width:784px;
+    margin: 48px auto 0;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    box-shadow: 0 0 8px 0 rgba(0,0,0,0.30);
+    -moz-box-shadow: 0 0 8px 0 rgba(0,0,0,0.30);
+    -webkit-box-shadow: 0 0 8px 0 rgba(0,0,0,0.30);
+    -o-box-shadow: 0 0 8px 0 rgba(0,0,0,0.30);
+}
+.stepbox h3 {
+    background-color: #F8BD3F;
+    border-radius: 10px 10px 0 0;
+    -webkit-border-radius: 10px 10px 0 0;
+    -moz-border-radius: 10px 10px 0 0;
+    position: relative;
+    color:#fff;
+    font-size: 3.2rem;
+    padding:18px 0 18px 140px;
+    line-height: 1.5;
+}
+.stepbox h3 img {
+    position: absolute;
+    left:0;
+    top:-15px;
+}
+.stepbox dl {
+    padding:40px 64px;
+    position: relative;
+}
+.stepbox dt {
+    float:left;
+}
+.stepbox dd {
+    width:472px;
+    float: right;
+    position: absolute;
+	top: 50%;
+	left: 248px;
+    font-size: 2.6rem;
+	-webkit-transform: translate(0%, -50%);
+	-moz-transform: translate(0%, -50%);
+	-ms-transform: translate(0%, -50%);
+	-o-transform: translate(0%, -50%);
+	transform: translate(0%, -50%);
+}
+
+.section04 {
+    background: url("../img/bg03.png") repeat 0 0;
+}
+.faqbox {
+    width:784px;
+    margin: 40px auto 0;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    box-shadow: 0 0 8px 0 rgba(0,0,0,0.30);
+    -moz-box-shadow: 0 0 8px 0 rgba(0,0,0,0.30);
+    -webkit-box-shadow: 0 0 8px 0 rgba(0,0,0,0.30);
+    -o-box-shadow: 0 0 8px 0 rgba(0,0,0,0.30);
+}
+.faqbox dl {}
+.faqbox dt {
+    background: url("../img/plus.png") no-repeat 95% center #F8BD3F;
+    position: relative;
+    color:#000;
+    font-size: 2.4rem;
+    padding:24px 0 24px 76px;
+    line-height: 1.5;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+}
+.faqbox dt:hover {
+    cursor: pointer;
+}
+.faqbox dt.open {
+    background: url("../img/minus.png") no-repeat 95% center #F8BD3F;
+    border-radius: 10px 10px 0 0;
+    -webkit-border-radius: 10px 10px 0 0;
+    -moz-border-radius: 10px 10px 0 0;
+}
+.faqbox dd {
+    font-size: 2.2rem;
+    position: relative;
+    padding:24px 40px 24px 76px;
+    line-height: 1.6;
+    background-color: #fff;
+    border-radius: 0 0 10px 10px;
+    -webkit-border-radius: 0 0 10px 10px;
+    -moz-border-radius: 0 0 10px 10px;
+}
+.faqbox dt img,
+.faqbox dd img {
+    position: absolute;
+    left:26px;
+}
+
+
+
+
+
+
+input, button, textarea, select {
+	margin: 0;
+	padding: 0;
+	background: none;
+	border: none;
+	border-radius: 0;
+	outline: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+.contact table td input,
+.contact table td select,
+.contact table td option,
+.contact table td textarea {
+	border:1px solid #DDDDDD;
+	margin-left:8px;
+	background-color:#fff;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-o-border-radius: 3px;
+	-ms-border-radius: 3px;
+    font-size:1.8rem;
+    padding:0.8em 1em;
+}
+.contact table td input:focus,
+.contact table td textarea:focus,
+.contact table td select:focus,
+.contact table td textarea:focus {
+	border:1px solid #2A92C8 !important;
+	background-color:#fff;
+	outline:none;
+}
+select {
+	background:url(../img/arrow01.png) no-repeat right center;
+	background-size:22px 32px;
+	padding-right:40px !important;
+	cursor: pointer;
+}
+input::placeholder,
+textarea::placeholder {
+  color: #A1A1A1;
+}
+/* IE */
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+  color: #A1A1A1;
+}
+/* Edge */
+input::-ms-input-placeholder,
+textarea::-ms-input-placeholder {
+  color: #A1A1A1;
+}
+button {
+    background-color: #F8BE3F;
+    color:#fff;
+    padding: 1em 4em;
+    display: inline-block;
+    cursor: pointer;
+    font-size:2.4rem;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+button:hover {
+    background-color: #F9D074;
+}
+
+.contact {}
+.contact input[type="text"],
+.contact input[type="email"],
+.contact textarea {
+    width:100%;
+}
+.contact input[type="number"] {
+    width:20%;
+}
+.contact .w-auto input {
+    width:auto !important;
+}
+.contact table {
+    border:0px;
+}
+.contact th,
+.contact td {
+    background-color: #fff;
+    border:0px;
+    font-size:2rem;
+    padding-top:1em;
+    padding-bottom:1em;
+}
+.contact th {
+    width:28%;
+    white-space: nowrap;
+    text-align: left;
+    vertical-align: middle;
+    font-weight: bold;
+    position: relative;
+	padding-right:1em;
+}
+.contact th.required:after {
+    content:"必須";
+    display: inline-block;
+    background-color: #DF2329;
+    color:#fff;
+    padding: 0.2em 0.8em;
+    font-size:12px;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-o-border-radius: 3px;
+	-ms-border-radius: 3px;
+    font-weight: normal;
+    position: absolute;
+	top: 50%;
+	right: 3%;
+	-webkit-transform: translate(0%, -50%);
+	-moz-transform: translate(0%, -50%);
+	-ms-transform: translate(0%, -50%);
+	-o-transform: translate(0%, -50%);
+	transform: translate(0%, -50%);
+}
+.contact .mw_wp_form_preview th {
+    border-right:1px solid #D7D7D7;
+}
+.contact .mw_wp_form_preview th.required:after {
+    display: none;
+}
+.contact td {
+	padding-left:1em;
+}
+.contact td.button {
+    text-align: center;
+    padding-top:2em;
+}
+.contact .form-p {
+    font-size: 16px;
+    line-height: 1.5;
+    padding:1em 1em 0;
+    margin:0;
+    display: block;
+}
+.contact .mw_wp_form_preview .form-p {
+    display: none;
+}
+.contact .contact-pp {
+    background-color: #F1F1F1;
+    padding:1em 1.2em;
+}
+.contact .contact-pp p {
+    line-height: 2.2;
+    font-size:100%;
+    padding-left: 2.3em;
+}
+.contact .contact-pp p:last-of-type {
+    margin-bottom:0.5em !important;
+}
+.contact .contact-pp h3 {
+    font-size: 24px;
+    color: #4BA29D;
+    padding-bottom: 0.4em;
+}
+.contact .contact-pp ul,
+.contact .contact-pp ol {
+    padding-left: 1em;
+}
+.contact .contact-pp ol span {
+    display:block;
+    font-size:80%;
+}
+
+
+.contact .contact-inner {
+    width:784px;
+    margin:0 auto;
+    padding-top:40px;
+}
+
+
+
+
+#footer {
+    background-color: #F8BE3F;
+}
+#footer .inner {
+    padding:48px 0;
+}
+#footer img {
+    float:left;
+    margin-top:13px;
+}   
+#footer .info {
+    float:right;
+    display: inline-block;
+    text-align: left;
+    margin-right: 40px;
+    font-size:1.8rem;
+}   
+#footer p {}   
+#footer .copyright {
+    background-color: #804420;
+    font-size: 1.2rem;
+    text-align: center;
+    color:#fff;
+    padding:1em 0;
+}   
+
+
+
+.contact-complete {}
+.contact-complete h2 {
+	text-align:center;
+	font-size:4rem;
+	padding-top:1.5em;
+}
+.contact-complete p {
+	text-align:center;
+	font-size:1.8rem;
+	padding-top:2em;
+	line-height:1.8;
 }

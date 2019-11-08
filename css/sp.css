@@ -4,18 +4,292 @@
 .hidden-sp {
 	display:none !important;
 }
-.hidden-tb {
-	display: inherit !important;
-}
 .hidden-pc {
 	display: inherit !important;
 }
 .only-sp {
 	display: inherit !important;
 }
-.only-tb {
-	display: none !important;
-}
 .only-pc {
 	display: none !important;
 }
+
+
+    html {
+        font-size:2.5vw;
+    }
+
+    img {
+        width:100%;
+    }
+
+    .inner {
+        width:90%;
+    }
+
+    .obi {
+        background-color: #7F4420;
+    }
+    .obi .inner {
+        width:100%;
+    }
+
+    .cvarea ul {
+        padding:2em 0;
+        width:70%;
+    }
+    .cvarea li {
+        width:100%;
+        float: none;
+    }
+    .cvarea li:nth-of-type(2) {
+        float: none;
+        margin-top: 0.5em
+    }
+    .cvarea li img {
+        width:100%;
+    }
+
+    #header {
+        background-color: #F8BE3F;
+    }
+    #header .header-left {
+        padding:0 0 0.8em;
+        float:none;
+    }
+    #header .header-left img {
+        width:75%;
+    }
+    #header .header-right {
+        display: none;
+    }
+    #header h1 {
+        font-size:1rem;
+        padding:0.5em 0 0;
+    }
+
+
+
+    .main_visual ul {
+        display: none;
+    }
+    .fukidashi {
+        width:25%;
+        position: absolute;
+        top:-20%;
+        right:-5%;
+    }
+
+    .section01 {}
+
+    .section02 {}
+    .section02 dl {}
+    .section02 dt {
+        width:22.5%;
+    }
+    .section02 dd {
+        width:74%;
+        position: absolute;
+        top: 50%;
+        left: 26%;
+        font-size: 1.2rem;
+        -webkit-transform: translate(0%, -50%);
+        -moz-transform: translate(0%, -50%);
+        -ms-transform: translate(0%, -50%);
+        -o-transform: translate(0%, -50%);
+        transform: translate(0%, -50%);
+    }
+    .section02 dd br {
+        display: none;
+    }
+    .section02 .inner {
+        padding-top:1em;
+    }
+
+    .stepbox {
+        width:100%;
+        margin: 1em auto 0;
+    }
+    .stepbox h3 {
+        font-size: 1.6rem;
+        padding:0.5em 0 0.5em 20%;
+    }
+    .stepbox h3 img {
+        width:20%;
+        left:-5%;
+        top:-30%;
+    }
+    .stepbox dl {
+        padding:1em 2em;
+    }
+    .stepbox dt {
+        width:25%
+    }
+    .stepbox dd {
+        width:60%;
+        top: 50%;
+        left: 35%;
+        font-size: 1.4rem;
+    }
+    .stepbox dd br {
+        display: none;
+    }
+
+
+    .section04 {}
+    .faqbox {
+        width:100%;
+        margin: 1em auto 0;
+    }
+    .faqbox dl {}
+    .faqbox dt {
+        background-size: 5%;
+        font-size: 1.4rem;
+        padding:0.8em 14% 0.8em 16%;
+    }
+    .faqbox dt.open {
+        background-size: 5%;
+    }
+    .faqbox dd {
+        font-size: 1.4rem;
+        padding:0.8em 5% 0.8em 16%;
+    }
+    .faqbox dt img,
+    .faqbox dd img {
+        position: absolute;
+        top: 50%;
+        left: 5%;
+        -webkit-transform: translate(0%, -50%);
+        -moz-transform: translate(0%, -50%);
+        -ms-transform: translate(0%, -50%);
+        -o-transform: translate(0%, -50%);
+        transform: translate(0%, -50%);
+        width:6%;
+    }
+
+
+
+
+
+    .contact table td input,
+    .contact table td select,
+    .contact table td option,
+    .contact table td textarea {
+        margin:0.5em 0 0 !important;
+        font-size:1.4rem;
+        padding:0.4em 0.6em;
+    }
+    button {
+        padding: 0.8em 0;
+        width:100%;
+        font-size:1.8rem;
+    }
+
+    .contact {
+        padding:0px;
+    }
+	.contact-complete h2 {
+		text-align:center;
+		font-size:2.5rem;
+		padding-top:1.5em;
+	}
+    .contact .contact-p {
+        font-size:3vw;
+        margin:0 0 2em;
+        text-align: left;
+    }
+	.contact-complete p {
+		font-size:1.4rem !important;
+		padding-top:2em !important;
+		margin-bottom:0  !important;
+		line-height:1.8;
+	}
+    .contact .contact-pp {
+        padding:1em 1.2em;
+        font-size:3.5vw;
+    }
+
+.contact th,
+.contact td {
+	display:block;
+	font-size:1.5rem;
+}
+.contact th {
+	width:100%;
+	padding:1em 0 0 !important;
+}
+.contact th.required:after {
+	display: inline-block;
+	position:relative;
+	top:0.6em;
+	padding: 0.1em 0.6em;
+	font-size:1rem;
+	margin-left:2em;
+}
+.contact td {
+	width: 100%;
+	border-top:0px;
+	padding:0 0 1em !important;
+}
+
+    .contact-confirm th,
+	.contact-confirm td {
+		display:table-cell;
+        font-size:1.5rem;
+    }
+	.contact-confirm th {
+		width:28%;
+		padding:1em 1em 1em 0 !important;
+	}
+	.contact-confirm th.required:after {
+        display: inline-block;
+        position:relative;
+        top:0.6em;
+        padding: 0.1em 0.6em;
+        font-size:1rem;
+        margin-left:2em;
+    }
+	.contact-confirm td {
+        width: auto;
+        border-top:0px;
+		padding:1em 0 1em 1em !important;
+    }
+        .contact td.button {
+        text-align: center;
+        padding-top:0.8em !important;
+    }
+    .contact .w-auto.form-date input {
+        width: 100% !important;
+    }
+
+
+    .contact .contact-inner {
+        width:90%;
+        padding-top:0.5em;
+    }
+
+
+    #footer .inner {
+        padding:1.5em 0;
+    }
+    #footer img {
+        float:none;
+        width:60%;
+        margin:0 auto 1em;
+    }   
+    #footer .info {
+        float:none;
+        width:auto;
+        display: block;
+        text-align: center;
+        margin:2em 0 0 0;
+        font-size:1.2rem;
+    }   
+    #footer p {
+        display: inline-block;
+        text-align: left;
+    }   
+    #footer .copyright {
+        font-size: 1rem;
+    }   
+

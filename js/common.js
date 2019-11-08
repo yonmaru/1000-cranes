@@ -41,5 +41,11 @@ $(function() {
   setTimeout(function () {
       document.getElementsByTagName("html")[0].classList.add("loading-delay");
   }, 3000);
+  
+  $('.faqbox dd').hide();
+  $('.faqbox dt').click(function(){
+    $(this).toggleClass('open');
+    $('+dd',this).slideToggle('fast')
+  });
 
 });
